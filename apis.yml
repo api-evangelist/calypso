@@ -1,0 +1,47 @@
+name: Calypso
+description: Calypso API specifications and resources
+image: https://example.com/calypso-logo.png
+url: https://calypso.example.com
+created: '2024-01-01'
+modified: '2024-01-01'
+apis:
+- name: Calypso Core API
+  description: Main API for Calypso platform operations
+  image: https://example.com/calypso-api-logo.png
+  humanUrl: https://calypso.example.com/docs
+  baseUrl: https://api.calypso.example.com/v1
+  version: '1.0'
+  tags:
+  - financial services
+  - trading
+  - risk management
+  properties:
+  - type: X-Documentation
+    url: https://calypso.example.com/docs/api
+  - type: X-OpenAPI
+    url: https://api.calypso.example.com/openapi.json
+  - type: X-Swagger
+    url: https://api.calypso.example.com/swagger.json
+  - type: X-Postman-Collection
+    url: https://www.postman.com/calypso/collections
+  - type: X-Authentication
+    url: https://calypso.example.com/docs/authentication
+  - type: X-Rate-Limits
+    url: https://calypso.example.com/docs/rate-limits
+  contact:
+  - type: X-Support
+    url: https://support.calypso.example.com
+  - type: X-Email
+    url: mailto:api-support@calypso.example.com
+  - type: X-Twitter
+    url: https://twitter.com/calypso
+maintainers:
+- name: Calypso Development Team
+  email: dev-team@calypso.example.com
+  twitter: '@calypsodev'
+tags:
+- apis
+- financial technology
+- enterprise software
+- trading systems
+include: []
