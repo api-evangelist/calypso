@@ -1,47 +1,185 @@
 name: Calypso
-description: Calypso API specifications and resources
-image: https://example.com/calypso-logo.png
-url: https://calypso.example.com
+description: >-
+  APIs and developer resources for Nasdaq Calypso (formerly Adenza / Calypso
+  Technology), a cross-asset front-to-back capital markets technology platform
+  for trading, risk management, collateral, treasury, processing, and accounting
+  used by banks, asset managers, central banks, and clearing houses worldwide.
+image: https://www.calypso.com/favicon.ico
+url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
 created: '2024-01-01'
-modified: '2024-01-01'
+modified: '2026-03-04'
+specificationVersion: '0.18'
+tags:
+- Capital Markets
+- Trading
+- Risk Management
+- Treasury
+- Collateral Management
+- Post-Trade Processing
+- Financial Technology
+- Enterprise Software
 apis:
 - name: Calypso Core API
-  description: Main API for Calypso platform operations
-  image: https://example.com/calypso-api-logo.png
-  humanUrl: https://calypso.example.com/docs
-  baseUrl: https://api.calypso.example.com/v1
-  version: '1.0'
+  description: >-
+    Main REST API for the Nasdaq Calypso platform. Provides programmatic access
+    to remotely control calls to the Calypso platform from other software,
+    enabling regulatory analytics, current limits usage queries, and pre-deal
+    limit checks for enhanced operating flexibility across capital markets
+    operations.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
+  baseURL: https://api.calypso.example.com/v1
   tags:
-  - financial services
-  - trading
-  - risk management
+  - Trading
+  - Risk Management
+  - Capital Markets
+  - REST API
   properties:
-  - type: X-Documentation
-    url: https://calypso.example.com/docs/api
-  - type: X-OpenAPI
-    url: https://api.calypso.example.com/openapi.json
-  - type: X-Swagger
-    url: https://api.calypso.example.com/swagger.json
-  - type: X-Postman-Collection
-    url: https://www.postman.com/calypso/collections
-  - type: X-Authentication
-    url: https://calypso.example.com/docs/authentication
-  - type: X-Rate-Limits
-    url: https://calypso.example.com/docs/rate-limits
-  contact:
-  - type: X-Support
-    url: https://support.calypso.example.com
-  - type: X-Email
-    url: mailto:api-support@calypso.example.com
-  - type: X-Twitter
-    url: https://twitter.com/calypso
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
+- name: Calypso Front Office API
+  description: >-
+    Provides programmatic access to Calypso front office capabilities including
+    real-time portfolio insights, instant order generation, pricing, live risk
+    and P&L monitoring, trade entry, and scenario analysis across multiple asset
+    classes for trading desks and portfolio managers.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Front Office
+  - Trading
+  - Portfolio Management
+  - Pricing
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office
+- name: Calypso Middle Office and Trading Risk API
+  description: >-
+    Enables integration with Calypso middle office and trading risk capabilities
+    including market risk, credit risk, clearing risk, and liquidity risk
+    metrics. Supports VaR calculations, stress testing, back testing, and
+    compliance management based on internal and regulatory mandates.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/middle-office-trading-risk
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Risk Management
+  - Market Risk
+  - Credit Risk
+  - Compliance
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/middle-office-trading-risk
+- name: Calypso Treasury API
+  description: >-
+    Provides access to Calypso treasury management capabilities for front-to-back
+    treasury operations including cross-asset trading decisions, analytics, risk
+    tools, real-time monitoring, and management of treasury positions across
+    cash and derivatives products.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/treasury
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Treasury
+  - Cash Management
+  - Liquidity
+  - Asset Management
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/treasury
+- name: Calypso Collateral, Margin and Securities Finance API
+  description: >-
+    Provides integration with Calypso collateral management, margin calculation,
+    and securities financing capabilities. Supports management of exposures for
+    cleared and uncleared trades, real-time collateral transfers, intraday
+    margining, and automated margin call processing.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Collateral Management
+  - Margin
+  - Securities Finance
+  - Risk
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance
+- name: Calypso Clearing API
+  description: >-
+    Provides access to Calypso integrated cross-asset OTC and exchange-traded
+    derivatives clearing capabilities including trade connectivity, processing,
+    collateral management and optimization, margin calculation, and
+    reconciliation for clearing houses and clearing members.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/clearing
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Clearing
+  - Derivatives
+  - OTC
+  - Exchange Traded
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/clearing
+- name: Calypso Post-Trade Processing API
+  description: >-
+    Enables integration with Calypso back-office processing capabilities
+    including trade comparison, netting, settlement, profitability analysis,
+    corporate actions, accounting, and regulatory reporting. Supports full
+    straight-through processing with exception-based user interaction.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/post-trade-processing
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Post-Trade
+  - Settlement
+  - Accounting
+  - Back Office
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/post-trade-processing
+- name: Calypso Reserve and Monetary Policy Management API
+  description: >-
+    Provides integration capabilities for central bank reserve management and
+    monetary policy operations on the Calypso platform. Supports monitoring and
+    managing debt and liquidity, regulating financial system liquidity, and
+    responding to market fluctuations for central banks.
+  image: https://www.calypso.com/favicon.ico
+  humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management
+  baseURL: https://api.calypso.example.com/v1
+  tags:
+  - Central Banking
+  - Reserve Management
+  - Monetary Policy
+  - Liquidity
+  properties:
+  - type: Documentation
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management
+common:
+- type: Portal
+  url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
+- type: Documentation
+  url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
+- type: Website
+  url: https://www.calypso.com/
+- type: Support
+  url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/resources
+- type: Learning
+  url: https://learncalypso.nasdaq.com/
+- type: Certification
+  url: https://www.nasdaq.com/solutions/fintech/services/education-learning/nasdaq-calypso/certification
+- type: Training
+  url: https://www.nasdaq.com/solutions/fintech/services/education-learning/nasdaq-calypso
+- type: Privacy Policy
+  url: https://www.calypso.com/Privacy
+- type: Terms of Service
+  url: https://km.calypso.com/pages/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/calypso-technology
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Adenza
 maintainers:
-- name: Calypso Development Team
-  email: dev-team@calypso.example.com
-  twitter: '@calypsodev'
-tags:
-- apis
-- financial technology
-- enterprise software
-- trading systems
+- name: Kin Lane
+  email: kin@apievangelist.com
 include: []
