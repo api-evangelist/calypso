@@ -7,8 +7,8 @@ description: >-
 image: https://www.calypso.com/favicon.ico
 url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
 created: '2024-01-01'
-modified: '2026-03-04'
-specificationVersion: '0.18'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 tags:
 - Capital Markets
 - Trading
@@ -180,6 +180,6 @@ common:
 - type: Wikipedia
   url: https://en.wikipedia.org/wiki/Adenza
 maintainers:
-- name: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 include: []
