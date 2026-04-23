@@ -1,3 +1,4 @@
+aid: calypso
 name: Calypso
 description: >-
   APIs and developer resources for Nasdaq Calypso (formerly Adenza / Calypso
@@ -5,9 +6,11 @@ description: >-
   for trading, risk management, collateral, treasury, processing, and accounting
   used by banks, asset managers, central banks, and clearing houses worldwide.
 image: https://www.calypso.com/favicon.ico
-url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/apis.yml
+type: Index
 created: '2024-01-01'
-modified: '2026-03-16'
+modified: '2026-04-23'
 specificationVersion: '0.19'
 tags:
   - Capital Markets
@@ -19,7 +22,8 @@ tags:
   - Trading
   - Treasury
 apis:
-  - name: Calypso Core API
+  - aid: calypso:calypso-core-api
+    name: Calypso Core API
     description: >-
       Main REST API for the Nasdaq Calypso platform. Provides programmatic access
       to remotely control calls to the Calypso platform from other software,
@@ -37,7 +41,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
-  - name: Calypso Front Office API
+  - aid: calypso:calypso-front-office-api
+    name: Calypso Front Office API
     description: >-
       Provides programmatic access to Calypso front office capabilities including
       real-time portfolio insights, instant order generation, pricing, live risk
@@ -54,7 +59,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office
-  - name: Calypso Middle Office and Trading Risk API
+  - aid: calypso:calypso-middle-office-trading-risk-api
+    name: Calypso Middle Office and Trading Risk API
     description: >-
       Enables integration with Calypso middle office and trading risk capabilities
       including market risk, credit risk, clearing risk, and liquidity risk
@@ -71,7 +77,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/middle-office-trading-risk
-  - name: Calypso Treasury API
+  - aid: calypso:calypso-treasury-api
+    name: Calypso Treasury API
     description: >-
       Provides access to Calypso treasury management capabilities for front-to-back
       treasury operations including cross-asset trading decisions, analytics, risk
@@ -88,7 +95,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/treasury
-  - name: Calypso Collateral, Margin and Securities Finance API
+  - aid: calypso:calypso-collateral-margin-securities-finance-api
+    name: Calypso Collateral, Margin and Securities Finance API
     description: >-
       Provides integration with Calypso collateral management, margin calculation,
       and securities financing capabilities. Supports management of exposures for
@@ -105,7 +113,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance
-  - name: Calypso Clearing API
+  - aid: calypso:calypso-clearing-api
+    name: Calypso Clearing API
     description: >-
       Provides access to Calypso integrated cross-asset OTC and exchange-traded
       derivatives clearing capabilities including trade connectivity, processing,
@@ -122,7 +131,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/clearing
-  - name: Calypso Post-Trade Processing API
+  - aid: calypso:calypso-post-trade-processing-api
+    name: Calypso Post-Trade Processing API
     description: >-
       Enables integration with Calypso back-office processing capabilities
       including trade comparison, netting, settlement, profitability analysis,
@@ -139,7 +149,8 @@ apis:
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/post-trade-processing
-  - name: Calypso Reserve and Monetary Policy Management API
+  - aid: calypso:calypso-reserve-monetary-policy-api
+    name: Calypso Reserve and Monetary Policy Management API
     description: >-
       Provides integration capabilities for central bank reserve management and
       monetary policy operations on the Calypso platform. Supports monitoring and
