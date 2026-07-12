@@ -168,6 +168,8 @@ apis:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management
 common:
+  - type: DomainSecurity
+    url: security/calypso-domain-security.yml
   - type: Portal
     url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
   - type: Documentation
