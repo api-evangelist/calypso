@@ -5,6 +5,18 @@ description: >-
   Technology), a cross-asset front-to-back capital markets technology platform
   for trading, risk management, collateral, treasury, processing, and accounting
   used by banks, asset managers, central banks, and clearing houses worldwide.
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.calypso.com/favicon.ico
 url: >-
   https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/apis.yml
