@@ -5,6 +5,17 @@ description: >-
   Technology), a cross-asset front-to-back capital markets technology platform
   for trading, risk management, collateral, treasury, processing, and accounting
   used by banks, asset managers, central banks, and clearing houses worldwide.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
