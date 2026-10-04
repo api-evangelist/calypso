@@ -76,7 +76,7 @@ apis:
     baseURL: https://api.calypso.example.com/v1
     tags:
       - Front Office
-      - Portfolio-Management
+      - Portfolio Management
       - Pricing
       - Trading
     tags_raw:
@@ -84,6 +84,7 @@ apis:
       - Portfolio Management
       - Pricing
       - Trading
+      - Portfolio-Management
     properties:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office
@@ -134,6 +135,11 @@ apis:
     humanURL: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance
     baseURL: https://api.calypso.example.com/v1
     tags:
+      - Collateral Management
+      - Margin
+      - Risk Management
+      - Securities Finance
+    tags_raw:
       - Collateral Management
       - Margin
       - Risk
