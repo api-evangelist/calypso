@@ -202,6 +202,12 @@ apis:
       - type: Documentation
         url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management
 common:
+  - type: Plans
+    url: plans/calypso-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/calypso-rate-limits.yml
+  - type: FinOps
+    url: finops/calypso-finops.yml
   - type: DomainSecurity
     url: security/calypso-domain-security.yml
   - type: Portal
