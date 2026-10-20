@@ -1,0 +1,104 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 8
+  own: 3
+  other_domain: 3
+  platform: 2
+  roles:
+  - api
+  - other
+  - website
+hosts:
+- host: api.calypso.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: calypso.com
+  role: api
+  relation: other-domain
+- host: api.nasdaq.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: nasdaq.com
+  role: api
+  relation: own
+- host: en.wikipedia.org
+  found_by:
+  - pointer
+  types:
+  - Wikipedia
+  serves: []
+  registrable_domain: wikipedia.org
+  role: other
+  relation: platform
+- host: km.calypso.com
+  found_by:
+  - probed
+  - well-known
+  types: []
+  serves: []
+  platform: courses.thinkific.com
+  registrable_domain: calypso.com
+  role: other
+  relation: other-domain
+- host: learncalypso.nasdaq.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Learning
+  serves: []
+  platform: courses.thinkific.com
+  registrable_domain: nasdaq.com
+  role: other
+  relation: own
+- host: www.calypso.com
+  found_by:
+  - probed
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: calypso.com
+  role: other
+  relation: other-domain
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: www.nasdaq.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Portal
+  - Documentation
+  - Website
+  - Support
+  - Certification
+  - Training
+  serves:
+  - docs
+  - cdn
+  vendor: akamai
+  registrable_domain: nasdaq.com
+  role: website
+  relation: own

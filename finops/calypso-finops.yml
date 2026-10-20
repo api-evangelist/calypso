@@ -1,6 +1,7 @@
 # Coverage demoted 2026-10-07 (roadmap#942, PLAN.md Stage A): this file was written by an API Evangelist
 # sweep and names no billing unit, meters or pricing category read from the provider — it restates the
 # FinOps framework. It is `x-coverage: unmeasured`, and the FOCUS alignment it claimed has been removed.
+name: Calypso API FinOps
 x-coverage: unmeasured
 specification: FinOps Framework
 specificationVersion: '1.0'

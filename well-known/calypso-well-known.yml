@@ -1,0 +1,292 @@
+generated: '2026-10-20'
+method: probed
+generator: harvest-well-known.py
+source: Live GET of the named /.well-known/ path list on every host the record knows; every row is a request that
+  was issued.
+summary:
+  hosts_probed: 6
+  paths_probed: 66
+  documents_served: 0
+hosts:
+- host: www.nasdaq.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: null
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: null
+    standard: RFC 9116
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/openid-configuration
+    status: null
+    standard: OpenID Connect Discovery 1.0
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/oauth-authorization-server
+    status: null
+    standard: RFC 8414
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/oauth-protected-resource
+    status: null
+    standard: RFC 9728
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/api-catalog
+    status: null
+    standard: RFC 9727
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/apis.json
+    status: null
+    standard: APIs.json
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/ai-plugin.json
+    status: null
+    standard: OpenAI plugin manifest
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/aauth-resource.json
+    status: null
+    standard: AAuth
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/ucp.json
+    status: null
+    standard: UCP
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/acp.json
+    status: null
+    standard: ACP
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/mcp/server-card.json
+    status: null
+    standard: MCP server card
+    note: 'unreachable: TimeoutError'
+- host: learncalypso.nasdaq.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 200
+    standard: OpenID Connect Discovery 1.0
+    note: '200 but issued by courses.thinkific.com: the hosting platform''s document, not the provider''s'
+    platform_issuer: courses.thinkific.com
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    standard: RFC 8414
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    standard: RFC 9728
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: api.calypso.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: null
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: null
+    standard: RFC 9116
+    note: 'unreachable: URLError'
+  - path: /.well-known/openid-configuration
+    status: null
+    standard: OpenID Connect Discovery 1.0
+    note: 'unreachable: URLError'
+  - path: /.well-known/oauth-authorization-server
+    status: null
+    standard: RFC 8414
+    note: 'unreachable: URLError'
+  - path: /.well-known/oauth-protected-resource
+    status: null
+    standard: RFC 9728
+    note: 'unreachable: URLError'
+  - path: /.well-known/api-catalog
+    status: null
+    standard: RFC 9727
+    note: 'unreachable: URLError'
+  - path: /.well-known/apis.json
+    status: null
+    standard: APIs.json
+    note: 'unreachable: URLError'
+  - path: /.well-known/ai-plugin.json
+    status: null
+    standard: OpenAI plugin manifest
+    note: 'unreachable: URLError'
+  - path: /.well-known/aauth-resource.json
+    status: null
+    standard: AAuth
+    note: 'unreachable: URLError'
+  - path: /.well-known/ucp.json
+    status: null
+    standard: UCP
+    note: 'unreachable: URLError'
+  - path: /.well-known/acp.json
+    status: null
+    standard: ACP
+    note: 'unreachable: URLError'
+  - path: /.well-known/mcp/server-card.json
+    status: null
+    standard: MCP server card
+    note: 'unreachable: URLError'
+- host: api.nasdaq.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: null
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: null
+    standard: RFC 9116
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/openid-configuration
+    status: null
+    standard: OpenID Connect Discovery 1.0
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/oauth-authorization-server
+    status: null
+    standard: RFC 8414
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/oauth-protected-resource
+    status: null
+    standard: RFC 9728
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/api-catalog
+    status: null
+    standard: RFC 9727
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/apis.json
+    status: null
+    standard: APIs.json
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/ai-plugin.json
+    status: null
+    standard: OpenAI plugin manifest
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/aauth-resource.json
+    status: null
+    standard: AAuth
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/ucp.json
+    status: null
+    standard: UCP
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/acp.json
+    status: null
+    standard: ACP
+    note: 'unreachable: TimeoutError'
+  - path: /.well-known/mcp/server-card.json
+    status: null
+    standard: MCP server card
+    note: 'unreachable: TimeoutError'
+- host: km.calypso.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 200
+    standard: OpenID Connect Discovery 1.0
+    note: '200 but issued by courses.thinkific.com: the hosting platform''s document, not the provider''s'
+    platform_issuer: courses.thinkific.com
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    standard: RFC 8414
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    standard: RFC 9728
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: www.calypso.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: null
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: null
+    standard: RFC 9116
+    note: 'unreachable: URLError'
+  - path: /.well-known/openid-configuration
+    status: null
+    standard: OpenID Connect Discovery 1.0
+    note: 'unreachable: URLError'
+  - path: /.well-known/oauth-authorization-server
+    status: null
+    standard: RFC 8414
+    note: 'unreachable: URLError'
+  - path: /.well-known/oauth-protected-resource
+    status: null
+    standard: RFC 9728
+    note: 'unreachable: URLError'
+  - path: /.well-known/api-catalog
+    status: null
+    standard: RFC 9727
+    note: 'unreachable: URLError'
+  - path: /.well-known/apis.json
+    status: null
+    standard: APIs.json
+    note: 'unreachable: URLError'
+  - path: /.well-known/ai-plugin.json
+    status: null
+    standard: OpenAI plugin manifest
+    note: 'unreachable: URLError'
+  - path: /.well-known/aauth-resource.json
+    status: null
+    standard: AAuth
+    note: 'unreachable: URLError'
+  - path: /.well-known/ucp.json
+    status: null
+    standard: UCP
+    note: 'unreachable: URLError'
+  - path: /.well-known/acp.json
+    status: null
+    standard: ACP
+    note: 'unreachable: URLError'
+  - path: /.well-known/mcp/server-card.json
+    status: null
+    standard: MCP server card
+    note: 'unreachable: URLError'
