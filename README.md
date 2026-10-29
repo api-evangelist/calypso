@@ -1,4 +1,4 @@
-# Calypso (calypso)
+# Calypso
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,183 +66,108 @@
 
 APIs and developer resources for Nasdaq Calypso (formerly Adenza / Calypso Technology), a cross-asset front-to-back capital markets technology platform for trading, risk management, collateral, treasury, processing, and accounting used by banks, asset managers, central banks, and clearing houses worldwide.
 
-**URL:** [Visit APIs.yml URL](https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/apis.yml)
+**Areas:** Capital Markets · Collateral Management · Enterprise Software · Financial Technology · Post-Trade Processing · Risk Management · Trading · Treasury
 
-## Scope
+## Calypso on APIs.io
 
-- **Type:** Index
-- **Vendor:** Nasdaq (formerly Adenza / Calypso Technology)
+Everything profiled for Calypso is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/calypso/](https://apis.io/providers/calypso/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (8)
 
-- Capital Markets
-- Collateral Management
-- Enterprise Software
-- Financial Technology
-- Post-Trade Processing
-- Risk Management
-- Trading
-- Treasury
+- [Calypso Core API](https://apis.io/apis/calypso/calypso-core-api/) — Main REST API for the Nasdaq Calypso platform. Provides programmatic access to remotely control calls to the Calypso platform from other software, enabling…
+- [Calypso Front Office API](https://apis.io/apis/calypso/calypso-front-office-api/) — Provides programmatic access to Calypso front office capabilities including real-time portfolio insights, instant order generation, pricing, live risk and…
+- [Calypso Middle Office and Trading Risk API](https://apis.io/apis/calypso/calypso-middle-office-trading-risk-api/) — Enables integration with Calypso middle office and trading risk capabilities including market risk, credit risk, clearing risk, and liquidity risk metrics.…
+- [Calypso Treasury API](https://apis.io/apis/calypso/calypso-treasury-api/) — Provides access to Calypso treasury management capabilities for front-to-back treasury operations including cross-asset trading decisions, analytics, risk…
+- [Calypso Collateral, Margin and Securities Finance API](https://apis.io/apis/calypso/calypso-collateral-margin-securities-finance-api/) — Provides integration with Calypso collateral management, margin calculation, and securities financing capabilities. Supports management of exposures for…
+- [Calypso Clearing API](https://apis.io/apis/calypso/calypso-clearing-api/) — Provides access to Calypso integrated cross-asset OTC and exchange-traded derivatives clearing capabilities including trade connectivity, processing,…
+- [Calypso Post-Trade Processing API](https://apis.io/apis/calypso/calypso-post-trade-processing-api/) — Enables integration with Calypso back-office processing capabilities including trade comparison, netting, settlement, profitability analysis, corporate…
+- [Calypso Reserve and Monetary Policy Management API](https://apis.io/apis/calypso/calypso-reserve-monetary-policy-api/) — Provides integration capabilities for central bank reserve management and monetary policy operations on the Calypso platform. Supports monitoring and…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Calypso Core API
+Authentication, trust centre, and vulnerability disclosure.
 
-Main REST API for the Nasdaq Calypso platform. Provides programmatic access to remotely control calls to the Calypso platform from other software, enabling regulatory analytics, current limits usage queries, and pre-deal limit checks for enhanced operating flexibility across capital markets operations.
+- [Calypso Domain Security](https://apis.io/security/calypso/calypso-domain-security/)
 
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Capital Markets
-- REST API
-- Risk Management
-- Trading
+- [Calypso Plans Pricing](https://apis.io/plans/calypso/calypso-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
+Published request limits.
+
+- [Calypso Rate Limits](https://apis.io/rate-limits/calypso/calypso-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Calypso Finops](https://apis.io/finops/calypso/calypso-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.nasdaq.com/products/fintech/calypso)
 - [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso)
-
-### Calypso Front Office API
-
-Provides programmatic access to Calypso front office capabilities including real-time portfolio insights, instant order generation, pricing, live risk and P&L monitoring, trade entry, and scenario analysis across multiple asset classes for trading desks and portfolio managers.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office)
-
-#### Tags
-
-- Front Office
-- Portfolio Management
-- Pricing
-- Trading
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/front-office)
-
-### Calypso Middle Office and Trading Risk API
-
-Enables integration with Calypso middle office and trading risk capabilities including market risk, credit risk, clearing risk, and liquidity risk metrics. Supports VaR calculations, stress testing, back testing, and compliance management based on internal and regulatory mandates.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/middle-office-trading-risk](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/middle-office-trading-risk)
-
-#### Tags
-
-- Compliance
-- Credit Risk
-- Market Risk
-- Risk Management
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/middle-office-trading-risk)
-
-### Calypso Treasury API
-
-Provides access to Calypso treasury management capabilities for front-to-back treasury operations including cross-asset trading decisions, analytics, risk tools, real-time monitoring, and management of treasury positions across cash and derivatives products.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/treasury](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/treasury)
-
-#### Tags
-
-- Asset Management
-- Cash Management
-- Liquidity
-- Treasury
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/treasury)
-
-### Calypso Collateral, Margin and Securities Finance API
-
-Provides integration with Calypso collateral management, margin calculation, and securities financing capabilities. Supports management of exposures for cleared and uncleared trades, real-time collateral transfers, intraday margining, and automated margin call processing.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance)
-
-#### Tags
-
-- Collateral Management
-- Margin
-- Risk
-- Securities Finance
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/collateral-margin-securities-finance)
-
-### Calypso Clearing API
-
-Provides access to Calypso integrated cross-asset OTC and exchange-traded derivatives clearing capabilities including trade connectivity, processing, collateral management and optimization, margin calculation, and reconciliation for clearing houses and clearing members.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/clearing](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/clearing)
-
-#### Tags
-
-- Clearing
-- Derivatives
-- Exchange Traded
-- OTC
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/clearing)
-
-### Calypso Post-Trade Processing API
-
-Enables integration with Calypso back-office processing capabilities including trade comparison, netting, settlement, profitability analysis, corporate actions, accounting, and regulatory reporting. Supports full straight-through processing with exception-based user interaction.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/post-trade-processing](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/post-trade-processing)
-
-#### Tags
-
-- Accounting
-- Back Office
-- Post-Trade
-- Settlement
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/post-trade-processing)
-
-### Calypso Reserve and Monetary Policy Management API
-
-Provides integration capabilities for central bank reserve management and monetary policy operations on the Calypso platform. Supports monitoring and managing debt and liquidity, regulating financial system liquidity, and responding to market fluctuations for central banks.
-
-**Human URL:** [https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management)
-
-#### Tags
-
-- Central Banking
-- Liquidity
-- Monetary Policy
-- Reserve Management
-
-#### Properties
-
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/reserve-and-monetary-policy-management)
-
-## Common Properties
-
-- [Portal](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso)
-- [Documentation](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso)
-- [Website](https://www.calypso.com/)
 - [Support](https://www.nasdaq.com/solutions/fintech/nasdaq-calypso/resources)
-- [Learning](https://learncalypso.nasdaq.com/)
-- [Certification](https://www.nasdaq.com/solutions/fintech/services/education-learning/nasdaq-calypso/certification)
-- [Training](https://www.nasdaq.com/solutions/fintech/services/education-learning/nasdaq-calypso)
-- [Privacy Policy](https://www.calypso.com/Privacy)
-- [Terms of Service](https://km.calypso.com/pages/terms)
-- [LinkedIn](https://www.linkedin.com/company/calypso-technology)
-- [Wikipedia](https://en.wikipedia.org/wiki/Adenza)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-20
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.1** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/calypso/](https://apis.io/providers/calypso/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Calypso: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/calypso/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
